@@ -1,0 +1,97 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("Fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+
+body {
+  background-color: #FFDEEC
+}
+
+hr {
+  border: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+li a {
+  display: block;
+  font-family: myFirstFont;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Black;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-family: myFirstFont;
+  color: black;
+  font-size: 30pt
+}
+
+h2 {
+  margin: 10;
+  padding: 10;
+  font-family: myFirstFont;
+  color: black;
+  font-size: 20pt
+}
+
+h3 {
+  margin: 100;
+  padding: 100;
+  width: 500px;
+  font-family: myFirstFont;
+  color: black;
+  font-size: 10pt
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  position: inherit;
+  bottom: 0px;
+  width: 500px;
+}
+
+
+#footer {
+  position: fixed;
+    padding: 0px 0px 20px 0px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  text-align: center;
+  font-family: myFirstFont;
+  color: white;
+  border: 5px
+  display: block;
+  background-color: pink
+}
